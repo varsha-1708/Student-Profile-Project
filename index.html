@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #eef2f3, #dfe9f3);
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .profile img {
+            width: 150px;
+            height: 180px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #2ecc71;
+        }
+
+        .details p {
+            margin: 6px 0;
+            font-size: 16px;
+        }
+
+        .details span {
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background-color: #2ecc71;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .links {
+            margin-top: 25px;
+        }
+
+        .link-box {
+            background-color: #ecf7f1;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .link-box a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .resume-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #2ecc71;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-btn:hover {
+            background-color: #27ae60;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Profile</h1>
+
+    <div class="profile">
+        <img src="./WhatsApp Image 2026-02-16 at 08.59.07.jpeg" alt="Profile Photo">
+
+        <div class="details">
+            <p><span>Name:</span> VARSHA C</p>
+            <p><span>Department:</span> Electronics and Communication Engineering</p>
+            <p><span>Section:</span> A</p>
+        </div>
+    </div>
+
+    <h2>Semester Results</h2>
+
+    <table>
+        <tr>
+            <th>Semester</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>Semester 1</td>
+            <td>7.54</td>
+        </tr>
+        <tr>
+            <td>Semester 2</td>
+            <td>8.00</td>
+        </tr>
+        <tr>
+            <td>Semester 3</td>
+            <td>7.94</td>
+        </tr>
+        <tr>
+            <td>Semester 4</td>
+            <td>8.12</td>
+        </tr>
+    </table>
+
+    <h2>Video & Audio Links</h2>
+
+    <div class="links">
+        <div class="link-box">
+            🎥 <a href="./WhatsApp Video 2026-02-16 at 08.59.06.mp4" target="_blank">Video: Self Introduction</a>
+        </div>
+
+        
+    </div>
+
+    <!-- Resume Button -->
+    <a href="./711523BEC116 (1).pdf" class="resume-btn" target="_blank">📄 View Resume</a>
+
+</div>
+
+</body>
+</html>
